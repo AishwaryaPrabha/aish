@@ -19,5 +19,5 @@ from blog.views import post_list
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('post/', include('blog.urls')),
+    path('', include('blog.urls')),
 ]
